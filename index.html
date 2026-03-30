@@ -3,289 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baby Sleep Lab HK | 香港嬰兒睡眠顧問 | 讓寶寶好好訓，讓生活重回正軌</title>
-<meta name="description" content="由英國認證睡眠顧問 Claire 主理，結合 13 年護理經驗與嬰兒睡眠科學，幫 BB 兩星期內一覺訓天光。每月只接受 8 個家庭。">
+<title>Baby Sleep Lab HK | 香港嬰兒睡眠顧問</title>
+<meta name="description" content="由英國認證睡眠顧問 Claire 主理，結合 13 年護理經驗與嬰兒睡眠科學，幫 BB 兩星期內一覺訓天光。OCN Level 6 認證，全港視像服務。">
 <link rel="stylesheet" href="style.css">
-<style>
-.hero{background:var(--cream);padding:72px 48px 64px;position:relative;overflow:hidden;min-height:500px;display:flex;align-items:center;}
-.hbg1{position:absolute;top:-80px;right:-60px;width:320px;height:320px;border-radius:50%;background:#ccdce8;opacity:0.45;}
-.hbg2{position:absolute;bottom:-60px;left:5%;width:200px;height:200px;border-radius:50%;background:#c4d8ca;opacity:0.25;}
-.hz{position:relative;z-index:1;max-width:600px;}
-.pill-o{display:inline-flex;align-items:center;gap:6px;background:#FFF3E0;border:0.5px solid #e8c98a;border-radius:20px;padding:5px 14px;margin-bottom:14px;}
-.od{width:7px;height:7px;border-radius:50%;background:#E8973A;animation:pu 2s infinite;flex-shrink:0;}
-@keyframes pu{0%,100%{opacity:1;}50%{opacity:0.4;}}
-.pill-o span{font-size:11px;color:#7a5010;font-weight:500;}
-.result-pill{display:inline-flex;align-items:center;gap:7px;background:#E8F5E9;border:0.5px solid var(--green);border-radius:20px;padding:7px 16px;margin-bottom:14px;display:block;}
-.result-pill svg{width:13px;height:13px;stroke:#2e7d32;fill:none;stroke-width:2.5;stroke-linecap:round;flex-shrink:0;}
-.result-pill span{font-size:12px;color:#1a5c1a;font-weight:700;}
-.slogan{font-size:14px;color:var(--blue);font-weight:500;border-left:3px solid var(--green);padding-left:12px;margin-bottom:12px;line-height:1.55;opacity:0.8;}
-.limit{font-size:12px;color:var(--dark);opacity:0.45;font-style:italic;margin-bottom:22px;}
-.hero-btns{display:flex;gap:12px;margin-bottom:28px;flex-wrap:wrap;}
-.pgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-.pc{background:var(--white);border-radius:14px;padding:18px;display:flex;gap:12px;align-items:flex-start;border:0.5px solid #d4e0ea;}
-.pico{width:36px;height:36px;border-radius:10px;background:var(--silver);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.pico svg{width:16px;height:16px;stroke:var(--blue);fill:none;stroke-width:2;}
-.pc h4{font-size:14px;font-weight:700;color:var(--blue);margin-bottom:3px;}
-.pc p{font-size:13px;color:var(--dark);line-height:1.6;font-weight:300;opacity:0.85;}
-.pe{text-align:center;margin-top:18px;font-size:16px;font-weight:700;color:var(--blue);opacity:0.65;}
-.acard{background:var(--blue);border-radius:18px;padding:28px;}
-.atop{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
-.ava{width:60px;height:72px;border-radius:12px;overflow:hidden;border:2px solid rgba(255,255,255,0.3);flex-shrink:0;}
-.ava img{width:100%;height:100%;object-fit:cover;object-position:center top;}
-.aname{font-size:16px;font-weight:700;color:var(--white);}
-.arole{font-size:12px;color:rgba(255,255,255,0.55);font-weight:300;}
-.aquote{font-size:15px;font-weight:500;color:var(--white);line-height:1.6;margin-bottom:10px;font-style:italic;}
-.aquote em{color:var(--green);font-style:normal;}
-.abody{font-size:13px;color:rgba(255,255,255,0.68);line-height:1.78;font-weight:300;margin-bottom:14px;}
-.abody strong{font-weight:700;color:var(--white);}
-.alink{font-size:13px;color:var(--white);font-weight:700;border-bottom:1.5px solid var(--green);padding-bottom:1px;text-decoration:none;}
-.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-.scard{border-radius:16px;padding:24px;border:0.5px solid #d4e0ea;background:var(--white);}
-.scard.feat{background:var(--blue);border-color:var(--blue);}
-.stag{display:inline-block;font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:3px 11px;border-radius:18px;margin-bottom:12px;font-weight:700;}
-.sta{background:var(--silver);color:var(--blue);}
-.stb{background:rgba(255,255,255,0.22);color:var(--white);border:0.5px solid rgba(255,255,255,0.35);}
-.scard h3{font-size:18px;font-weight:700;color:var(--blue);margin-bottom:6px;}
-.scard.feat h3{color:var(--white);}
-.sdesc{font-size:13px;color:var(--dark);opacity:0.7;line-height:1.6;font-weight:300;margin-bottom:12px;}
-.scard.feat .sdesc{color:rgba(255,255,255,0.68);opacity:1;}
-.slist{list-style:none;display:flex;flex-direction:column;gap:7px;}
-.slist li{font-size:13px;color:var(--dark);font-weight:300;display:flex;gap:8px;align-items:flex-start;line-height:1.5;}
-.scard.feat .slist li{color:rgba(255,255,255,0.85);}
-.ck{color:var(--green);font-weight:700;font-size:14px;flex-shrink:0;}
-.scard.feat .ck{color:#9BBF9B;}
-.sproof{background:var(--silver);border-radius:12px;padding:14px 16px;margin-top:14px;display:flex;gap:10px;align-items:flex-start;}
-.sproof svg{width:14px;height:14px;stroke:var(--blue);fill:none;stroke-width:2;flex-shrink:0;margin-top:2px;}
-.sproof p{font-size:12px;color:var(--blue);font-weight:300;line-height:1.6;}
-.sproof p strong{font-weight:700;}
-
-@media(max-width:768px){
-  .hero{padding:26px 18px 22px;min-height:auto;}
-  .hbg1{width:180px;height:180px;top:-40px;right:-40px;}
-  .hbg2{display:none;}
-  .pgrid{grid-template-columns:1fr;}
-  .sgrid{grid-template-columns:1fr;}
-  .hero-btns{flex-direction:column;}
-  .hero-btns .btn-main,.hero-btns .btn-outline{width:100%;text-align:center;padding:13px;}
-}
-</style>
 </head>
 <body>
-
 <nav class="nav">
-  <a href="index.html"><img src="images/logo.png" alt="Baby Sleep Lab HK"></a>
-  <div class="nav-links">
-    <a href="index.html" class="active">主頁</a>
+  <a href="index.html"><img class="logo" src="images/logo.png" alt="Baby Sleep Lab HK"></a>
+  <div class="navlinks">
+    <a href="index.html" class="act">主頁</a>
     <a href="about.html">關於我</a>
     <a href="services.html">服務方案</a>
     <a href="testimonials.html">客戶心聲</a>
   </div>
-  <a href="#apply" class="nav-btn">加入 Wait List</a>
+  <a href="#waitlist" class="nav-btn">加入 Wait List</a>
 </nav>
+<div class="fomo-bar"><span class="fomo-dot"></span><span>每個家庭都係獨特的——每月只接受 <strong>6 個家庭</strong>，確保最佳效果</span></div>
 
-<div class="fomo-bar">
-  <span class="fomo-dot"></span>
-  <span>每個家庭都係獨特的——每月只接受 <strong>8 個家庭</strong>，確保最佳效果</span>
-</div>
-
-<div class="hero">
-  <div class="hbg1"></div>
-  <div class="hbg2"></div>
-  <div class="hz">
-    <div class="pill-o"><span class="od"></span><span>現正接受新家庭申請</span></div>
+<section class="hero">
+  <div class="hbg1"></div><div class="hbg2"></div>
+  <div class="hero-inner">
+    <div class="pill-o"><span class="pill-dot"></span><span>現正接受新家庭申請</span></div>
     <h1 class="h1">讓寶寶<em>好好訓</em>，<br>讓生活重回正軌</h1>
-    <p class="body-txt">由 <strong>英國認證睡眠顧問 Claire</strong> 主理，結合 13 年護理經驗與嬰兒睡眠科學，幫 BB 兩星期內一覺訓天光。</p>
-    <div class="result-pill">
-      <svg viewBox="0 0 24 24" style="display:inline;vertical-align:middle;margin-right:6px;"><polyline points="20 6 9 17 4 12"/></svg>
-      <span>大部分家庭 兩星期內 見到明顯改善</span>
-    </div>
-    <p class="slogan">用睡眠科學，陪你一步步生活重回正軌</p>
-    <p class="limit">每月只接受 8 個家庭，確保每個家庭得到全心投入。</p>
+    <p class="body-t">由 <strong>英國認證睡眠顧問 Claire</strong> 主理，結合 13 年護理經驗與嬰兒睡眠科學，幫 BB 兩星期內一覺訓天光。</p>
+    <div class="result-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>大部分家庭 兩星期內 見到明顯改善</span></div>
+    <p class="hero-slogan">用睡眠科學，陪你一步步生活重回正軌</p>
+    <p class="hero-limit">每月只接受 6 個家庭，確保每個家庭得到全心投入。</p>
     <div class="hero-btns">
-      <a href="#apply" class="btn-main">申請加入 Wait List</a>
-      <a href="services.html" class="btn-outline">了解服務方案</a>
+      <a href="#waitlist" class="btn-p">申請加入 Wait List</a>
+      <a href="services.html" class="btn-o">了解服務方案</a>
     </div>
-    <div class="cert-stack">
-      <div class="crow"><div class="cico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div><div><div class="cmain">認證嬰兒睡眠顧問</div><div class="csub">OCN Level 6 Accredited · London School of Child Studies, UK</div></div></div>
-      <div class="crow"><div class="cico"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><div><div class="cmain">前香港及英國 (UK) 註冊護士</div><div class="csub">13 年多專科護理經驗 · 衛生署母嬰健康院 · 中文大學公共衛生學碩士</div></div></div>
+    <div class="certs">
+      <div class="crow"><div class="cico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div><div><div class="cmain">認證嬰兒睡眠顧問</div><div class="csub">OCN Level 6 Sleep Practitioner Programme · London School of Child Studies, UK</div></div></div>
+      <div class="crow"><div class="cico"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><div><div class="cmain">曾係英國同香港註冊護士</div><div class="csub">13 年多專科護理經驗 · 衛生署母嬰健康院 · 中文大學公共衛生學碩士</div></div></div>
     </div>
   </div>
-</div>
+</section>
 
 <div class="trust-bar">
-  <div class="ti"><span class="tn">OCN 6</span><span class="tl">認可顧問</span></div>
-  <div class="ti"><span class="tn">13+年</span><span class="tl">護理經驗</span></div>
-  <div class="ti"><span class="tn">1000+</span><span class="tl">服務家庭</span></div>
-  <div class="ti"><span class="tn">21日</span><span class="tl">WhatsApp 跟進</span></div>
+  <div class="trust-item"><span class="trust-num">OCN 6</span><span class="trust-lbl">認可顧問</span></div>
+  <div class="trust-item"><span class="trust-num">13+年</span><span class="trust-lbl">護理經驗</span></div>
+  <div class="trust-item"><span class="trust-num">1000+</span><span class="trust-lbl">服務家庭</span></div>
+  <div class="trust-item"><span class="trust-num">21日</span><span class="trust-lbl">WhatsApp 跟進</span></div>
 </div>
 
-<!-- PAIN -->
-<div class="sec sl">
-  <span class="ey">你是否正在經歷...</span>
-  <h2 class="h2">你並不孤單</h2>
-  <p class="sub">身為護士都因為 BB 睡眠問題崩潰——你的感受，我完全明白。</p>
-  <div class="pgrid">
-    <div class="pc"><div class="pico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><h4>頻繁夜醒</h4><p>一晚醒幾次，全家嚴重睡眠不足</p></div></div>
-    <div class="pc"><div class="pico"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div><div><h4>抱睡 / 奶睡</h4><p>媽媽手，腰酸背痛到極點</p></div></div>
-    <div class="pc"><div class="pico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div><div><h4>資訊太多太雜</h4><p>唔知邊個可信，試晒又唔 work</p></div></div>
-    <div class="pc"><div class="pico"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><div><h4>精疲力竭</h4><p>完全無晒 me time，零社交，情緒快崩潰</p></div></div>
-  </div>
-  <p class="pe">如果你係咁，你黎啱地方啦。</p>
-</div>
-
-<!-- ABOUT -->
-<div class="sec">
-  <span class="ey">關於創辦人</span>
-  <div class="acard">
-    <div class="atop">
-      <div class="ava"><img src="images/claire.jpg" alt="Claire"></div>
-      <div><div class="aname">Claire</div><div class="arole">Baby Sleep Lab HK 創辦人</div></div>
+<section class="sec sl">
+  <div class="sec-inner">
+    <span class="ey">你是否正在經歷...</span>
+    <h2 class="h2">你並不孤單</h2>
+    <p class="sub">身為護士都因為 BB 睡眠問題崩潰——你的感受，我完全明白。</p>
+    <div class="pain-grid">
+      <div class="pain-card"><div class="pain-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><h4>頻繁夜醒</h4><p>一晚醒幾次，全家嚴重睡眠不足</p></div></div>
+      <div class="pain-card"><div class="pain-ico"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div><div><h4>抱睡 / 奶睡</h4><p>媽媽手，腰酸背痛到極點</p></div></div>
+      <div class="pain-card"><div class="pain-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div><div><h4>資訊太多太雜</h4><p>唔知邊個可信，試晒又唔 work</p></div></div>
+      <div class="pain-card"><div class="pain-ico"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><div><h4>精疲力竭</h4><p>完全無晒 me time，零社交，情緒快崩潰</p></div></div>
     </div>
-    <p class="aquote">「<em>BB 訓得好唔好，從來唔係靠彩數。</em>」</p>
-    <p class="abody">身為護士都因為 BB 睡眠問題崩潰。生完大仔後「靠死頂」等咗四年，陀住細女決定用科學解決問題，細女訓得好，生活很快重回正軌。之後完成 OCN Level 6 認證，整理出一套<strong>貼地、易執行</strong>嘅方法。</p>
-    <a class="alink" href="about.html">了解更多我的故事 →</a>
+    <p class="pain-end">如果你係咁，你黎啱地方啦。</p>
   </div>
-</div>
+</section>
 
-<!-- SERVICES -->
-<div class="sec cr">
-  <span class="ey">服務方案</span>
-  <h2 class="h2">按寶寶年齡選擇</h2>
-  <p class="sub">每個階段有最適合的方法。</p>
-  <div class="sgrid">
-    <div class="scard">
-      <span class="stag sta">0–3 個月</span>
-      <h3>0至3個月嬰兒睡眠基礎建立計劃</h3>
-      <p class="sdesc">唔追求一覺到天光——幫你整好睡眠底層。</p>
-      <ul class="slist">
-        <li><span class="ck">✓</span>一對一視像 / 電話諮詢</li>
-        <li><span class="ck">✓</span>睡眠日記分析 + 日夜節奏計劃</li>
-        <li><span class="ck">✓</span>睡前流程 + 放落床手法指導</li>
-        <li><span class="ck">✓</span>黃昏崩潰時段處理方案</li>
-        <li><span class="ck">✓</span>21 日 WhatsApp 全程跟進</li>
-      </ul>
-    </div>
-    <div class="scard feat">
-      <span class="stag stb">4 個月以上</span>
-      <h3>個人化嬰幼兒睡眠改善計劃</h3>
-      <p class="sdesc">每晚點做都寫清楚——21 日有人陪住行。</p>
-      <ul class="slist">
-        <li><span class="ck">✓</span>一對一視像 / 電話諮詢</li>
-        <li><span class="ck">✓</span>根源分析 + 個人化書面睡眠計劃</li>
-        <li><span class="ck">✓</span>入睡教學 + 夜醒回應流程</li>
-        <li><span class="ck">✓</span>Nap 計劃 + 夜奶評估</li>
-        <li><span class="ck">✓</span>21 日 WhatsApp 全程跟進</li>
-      </ul>
+<section class="sec">
+  <div class="sec-inner">
+    <span class="ey">關於創辦人</span>
+    <div class="about-card">
+      <div class="about-top"><div class="about-ava"><img src="images/claire.jpg" alt="Claire"></div><div><div class="about-name">Claire</div><div class="about-role">Baby Sleep Lab HK 創辦人</div></div></div>
+      <p class="about-quote">「<em>BB 訓得好唔好，從來唔係靠彩數。</em>」</p>
+      <p class="about-body">身為護士都因為 BB 睡眠問題崩潰。生完大仔後「靠死頂」等咗四年，陀住細女決定用科學解決問題，細女訓得好，生活很快重回正軌。完成 OCN Level 6 Sleep Practitioner Programme 認證，整理出一套<strong>貼地、易執行</strong>嘅方法。</p>
+      <a href="about.html" class="about-link">了解更多我的故事 →</a>
     </div>
   </div>
-  <div style="text-align:center;margin-top:20px;">
-    <a href="services.html" class="btn-outline">查看完整服務詳情 →</a>
+</section>
+
+<section class="sec cr">
+  <div class="sec-inner">
+    <span class="ey">服務方案</span>
+    <h2 class="h2">按寶寶年齡選擇</h2>
+    <p class="sub">每個階段有最適合的方法。</p>
+    <div class="svc-grid">
+      <div class="svc-card"><span class="svc-tag a">0–3 個月</span><h3>0至3個月嬰兒睡眠基礎建立計劃</h3><p class="svc-desc">唔以一覺到天光為目標，先建立穩定睡眠結構。</p><ul class="svc-list"><li><span class="svc-ck">✓</span>一對一視像 / 電話諮詢</li><li><span class="svc-ck">✓</span>睡眠日記分析 + 日夜節奏計劃</li><li><span class="svc-ck">✓</span>睡前流程 + 放落床手法指導</li><li><span class="svc-ck">✓</span>餵食與睡眠協調建議</li><li><span class="svc-ck">✓</span>21 日 WhatsApp 全程跟進</li></ul></div>
+      <div class="svc-card feat"><span class="svc-tag b">4 個月以上</span><h3>個人化嬰幼兒睡眠改善計劃</h3><p class="svc-desc">每晚點做都寫清楚——21 日有人陪住行。</p><ul class="svc-list"><li><span class="svc-ck">✓</span>一對一視像 / 電話諮詢</li><li><span class="svc-ck">✓</span>根源分析 + 個人化書面睡眠計劃</li><li><span class="svc-ck">✓</span>入睡教學 + 夜醒回應流程</li><li><span class="svc-ck">✓</span>Nap 計劃 + 夜奶評估</li><li><span class="svc-ck">✓</span>21 日 WhatsApp 全程跟進</li></ul></div>
+    </div>
+    <div style="text-align:center;margin-top:28px;"><a href="services.html" class="btn-p">查看完整服務詳情</a></div>
   </div>
-</div>
+</section>
 
-<!-- PROCESS -->
-<div class="sec sl">
-  <span class="ey">服務流程</span>
-  <h2 class="h2">我們係如何幫助你？</h2>
-  <p class="sub">由申請到一覺訓天光。</p>
-  <div class="step"><div class="sn g">1</div><div class="sb"><span class="stag tf">免費</span><h3>申請加入 Wait List</h3><p>填寫表格，無需承諾——每月只限 8 個家庭。</p><div class="chips"><span class="chip hl">名額有限</span></div></div></div>
-  <div class="step"><div class="sn g">2</div><div class="sb"><span class="stag tf">免費</span><h3>免費 15 分鐘初步通話</h3><p>有名額時我主動聯絡你，零壓力。</p></div></div>
-  <div class="step"><div class="sn">3</div><div class="sb"><span class="stag ti2">評估</span><h3>睡眠日記評估</h3><p>記錄 3–5 天作息，讓我全面了解。</p></div></div>
-  <div class="step"><div class="sn">4</div><div class="sb"><span class="stag ti2">諮詢</span><h3>60 分鐘深度諮詢</h3><p>搵出根本原因，共同制訂計劃。</p></div></div>
-  <div class="step"><div class="sn">5</div><div class="sb"><span class="stag ti2">計劃書</span><h3>書面睡眠計劃書</h3><p>清晰、實用、度身訂造，每晚點做都寫清楚。</p></div></div>
-  <div class="step"><div class="sn g">6</div><div class="sb"><span class="stag ts">21 日</span><h3>WhatsApp 全程跟進</h3><p>每天主動聯絡，靈活調整。</p><div class="bonus-bx"><div class="bonus-ico"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="bonus-txt"><p><strong>第 3–5 日見到明顯改善。</strong>21 日陪伴係承諾。</p></div></div></div></div>
-</div>
-
-<div class="nb"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg><p><strong>溫和、以家庭為中心。</strong>所有建議因應你的寶寶及家庭度身訂造。</p></div>
-
-<!-- BEFORE AFTER -->
-<div class="sec cr">
-  <span class="ey">改變前後</span>
-  <h2 class="h2" style="margin-bottom:16px;">數字說明一切</h2>
-  <div class="ba-row"><div class="ba-card"><span class="ba-tag btb">訓練前</span><h4>6次+</h4><p>每晚夜醒，精疲力竭</p></div><div class="ba-mid">→</div><div class="ba-card"><span class="ba-tag bta">訓練後</span><h4>自行入睡</h4><p>全家重獲安睡</p></div></div>
-  <div class="ba-note">大部分家庭 兩星期內 見到明顯改善</div>
-</div>
-
-<!-- TESTIMONIALS PREVIEW -->
-<div class="sec sl">
-  <span class="ey">客戶心聲</span>
-  <h2 class="h2" style="margin-bottom:16px;">真實家長的分享</h2>
-  <div class="tgrid">
-    <div class="tc"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="tq">「以前每晚要起身 5、6 次，跟進兩個星期後，囡囡終於可以自己入睡，全家都瞓得好咗！」</p><p class="tname">Mandy</p><p class="tdet">8 個月寶寶媽媽</p></div>
-    <div class="tc"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="tq">「WhatsApp 跟進令我好有信心，有問題即時有人解答，唔係孤軍作戰。」</p><p class="tname">Karen</p><p class="tdet">5 個月寶寶媽媽</p></div>
+<section class="sec sl">
+  <div class="sec-inner">
+    <span class="ey">服務流程</span>
+    <h2 class="h2">我們如何幫助你？</h2>
+    <p class="sub">由申請到一覺訓天光。</p>
+    <div class="steps-col">
+      <div class="step-row"><div class="step-num g">1</div><div class="step-body"><span class="step-tag tag-free">免費</span><h3>申請加入 Wait List</h3><p>填寫表格，無需承諾——每月只限 6 個家庭。</p></div></div>
+      <div class="step-row"><div class="step-num g">2</div><div class="step-body"><span class="step-tag tag-free">免費</span><h3>免費 15 分鐘初步通話</h3><p>有名額時我主動聯絡你，零壓力。</p></div></div>
+      <div class="step-row"><div class="step-num">3</div><div class="step-body"><span class="step-tag tag-step">評估</span><h3>睡眠日記評估</h3><p>記錄 3–5 天作息，讓我全面了解你的情況。</p></div></div>
+      <div class="step-row"><div class="step-num">4</div><div class="step-body"><span class="step-tag tag-step">諮詢</span><h3>60 分鐘深度諮詢</h3><p>搵出根本原因，共同制訂個人化計劃。</p></div></div>
+      <div class="step-row"><div class="step-num">5</div><div class="step-body"><span class="step-tag tag-step">計劃書</span><h3>書面睡眠計劃書</h3><p>清晰、實用、度身訂造，每晚點做都寫清楚。</p></div></div>
+      <div class="step-row"><div class="step-num g">6</div><div class="step-body"><span class="step-tag tag-days">21 日</span><h3>WhatsApp 全程跟進</h3><p>每天主動聯絡，靈活調整。</p><div class="bonus-box"><div class="bonus-ico"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="bonus-txt"><p><strong>第 3–5 日見到明顯改善。</strong>21 日陪伴係承諾。</p></div></div></div></div>
+    </div>
   </div>
-  <div style="text-align:center;margin-top:20px;">
-    <a href="testimonials.html" class="btn-outline">查看更多客戶心聲 →</a>
-  </div>
-</div>
+</section>
 
-<!-- WAIT LIST FORM -->
-<div class="sec" id="apply" style="background:var(--silver);">
-  <span class="ey">Wait List</span>
-  <h2 class="h2">申請加入 Wait List</h2>
-  <p class="sub">每個家庭都係獨特的——每月只接受 8 個家庭，確保最佳效果。有名額時我會以 WhatsApp 主動聯絡你。</p>
-  <div class="ln"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg><span>每月只限 8 個家庭，按先後順序審閱</span></div>
-  <div class="form-wrap">
-    <div id="wlf">
-      <div class="fg">
-        <div class="fi"><label>家長姓名 <span class="req">*</span></label><input type="text" id="nm" placeholder="例：陳太 / Mandy Chan"></div>
-        <div class="fi"><label>WhatsApp <span class="req">*</span></label><input type="tel" id="ph" placeholder="例：9123 4567"></div>
-        <div class="fi full"><label>電郵地址</label><input type="email" placeholder="可選填"></div>
-        <div class="fi"><label>寶寶年齡 <span class="req">*</span></label><select id="ag"><option value="">請選擇...</option><option>0–3 個月</option><option>4–6 個月</option><option>7–9 個月</option><option>10–12 個月</option><option>1–2 歲</option><option>2–3 歲</option></select></div>
-        <div class="fi"><label>主要睡眠問題 <span class="req">*</span></label><select id="is"><option value="">請選擇...</option><option>頻繁夜醒</option><option>抱睡/奶睡</option><option>難以入睡</option><option>日間小睡短</option><option>作息不規律</option><option>其他</option></select></div>
-        <div class="fi full"><label>有興趣的服務 <span class="req">*</span></label>
-          <div class="so">
-            <div class="sopt" id="s1" onclick="ps('s1')"><div class="sopt-t">0至3個月嬰兒睡眠基礎建立計劃</div><div class="sopt-d">0–3 個月 · 建立日夜規律 + 21日跟進</div></div>
-            <div class="sopt" id="s2" onclick="ps('s2')"><div class="sopt-t">個人化嬰幼兒睡眠改善計劃</div><div class="sopt-d">4個月以上 · 個人化計劃書 + 21日跟進</div></div>
-          </div>
+<div class="notice-bar"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg><p><strong>溫和、以家庭為中心。</strong>所有建議因應你的寶寶及家庭度身訂造。</p></div>
+
+<section class="sec cr">
+  <div class="sec-inner">
+    <span class="ey">改變前後</span>
+    <h2 class="h2" style="margin-bottom:20px;">數字說明一切</h2>
+    <div class="ba-row"><div class="ba-card"><span class="ba-tag before">訓練前</span><h4>6次+</h4><p>每晚夜醒，精疲力竭</p></div><div class="ba-arrow">→</div><div class="ba-card"><span class="ba-tag after">訓練後</span><h4>自行入睡</h4><p>全家重獲安睡</p></div></div>
+    <div class="ba-note">大部分家庭 兩星期內 見到明顯改善</div>
+  </div>
+</section>
+
+<section class="sec sl">
+  <div class="sec-inner">
+    <span class="ey">真實家長的分享</span>
+    <h2 class="h2">真實家長，真實改變</h2>
+    <p class="sub">唔係廣告——係真實媽媽的親身經歷。</p>
+    <div class="testi-grid">
+      <div class="testi-card feat"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「我仔依家1歲2個月，本身由6個月左右開始夜晚會醒4/5次，做咗sleep training 2個星期左右就好大改善，依家最多醒一次，有時仲可以一覺瞓到天光！以前要黐住我哋瞓，而家可以自己訓喺床好快入睡～<br><br>Trainer Claire超細心，會睇住BB每日狀況幫我tune個plan，仲會預先解答埋我未問嘅問題。真心覺得幫到好大忙，成家終於有覺好瞓。<br><br>以前自己研究好多理論，但始終實行唔到，依家有人guide住真係會有效好多！」</p><div class="testi-bottom"><div><div class="testi-name">Yan</div><div class="testi-det">1歲2個月寶寶媽媽 · 香港</div></div><span class="testi-badge">夜醒 → 一覺天光</span></div></div>
+      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「呀女八個月大，一直要奶睡，放低就醒，我腰都痛到受唔住。最怕係sleep training會令佢喊好耐好慘，但Claire第一次通話已經解釋咗佢嘅方法係點，令我安心好多。計劃書寫得超詳細，連幾點開始bedtime routine、放床時手勢點做都寫晒。第三日已經見到明顯改善，依家囡囡自己摸索一陣就瞓著，我終於有自己嘅夜晚時間！喺澳洲時差都配合到，真係好感謝！」</p><div class="testi-bottom"><div><div class="testi-name">Mandy</div><div class="testi-det">呀女八個月大 · 澳洲</div></div><span class="testi-badge">奶睡 → 自行入睡</span></div></div>
+      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「囝囝而家五個月啦，nap成日得30分鐘，夜晚又頻頻夜醒，我以為係BB天生咁。Claire幫我睇咗3日sleep log之後，話係wake window唔啱，加上入睡方式有問題，即刻幫我搵到根源。最impressed係佢唔係一刀切，係真係睇住我BB嘅情況逐日調整。一個星期內nap明顯長咗，夜晚都穩定好多。喺加拿大做視像諮詢完全冇問題，Claire仲特別配合時差安排時間！」</p><div class="testi-bottom"><div><div class="testi-name">Karen</div><div class="testi-det">囝囝而家五個月啦 · 加拿大</div></div><span class="testi-badge">短 nap → 穩定作息</span></div></div>
+      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「呀女已經兩歲三個月大，每朝5點就醒，一直唔知問題出喺邊。Claire喺諮詢前已經認真睇咗我填嘅sleep log，諮詢當日即刻解釋到係過攰同bedtime太早嘅問題——終於有人幫我搵到根源！調整咗nap結構同入睡時間之後，兩個星期內清晨早醒完全解決。21日WhatsApp跟進最正，有問題即刻有人回覆，Claire好有耐心，每次都解釋清楚點解要咁調整。喺英國做到online睡眠顧問，強烈推薦！」</p><div class="testi-bottom"><div><div class="testi-name">Vivian</div><div class="testi-det">呀女已經兩歲三個月大 · 英國</div></div><span class="testi-badge">清晨早醒 → 解決</span></div></div>
+    </div>
+    <div style="text-align:center;margin-top:28px;"><a href="testimonials.html" class="btn-p">睇更多家長分享</a></div>
+  </div>
+</section>
+
+<section class="sec" style="background:var(--silver);" id="waitlist">
+  <div class="sec-inner">
+    <span class="ey">Wait List</span>
+    <h2 class="h2">申請加入 Wait List</h2>
+    <p class="sub">每個家庭都係獨特的——每月只接受 6 個家庭，確保最佳效果。有名額時我會以 WhatsApp 主動聯絡你。</p>
+    <div class="ln-tag"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg><span>每月只限 6 個家庭，按先後順序審閱</span></div>
+    <div class="form-wrap">
+      <div id="form-body">
+        <div class="form-grid">
+          <div class="form-field"><label>家長姓名 <span class="req">*</span></label><input type="text" id="f-name" placeholder="例：陳太 / Mandy Chan"></div>
+          <div class="form-field"><label>WhatsApp 號碼 <span class="req">*</span></label><input type="tel" id="f-phone" placeholder="例：9123 4567"></div>
+          <div class="form-field full"><label>電郵地址</label><input type="email" placeholder="可選填"></div>
+          <div class="form-field"><label>寶寶年齡 <span class="req">*</span></label><select id="f-age"><option value="">請選擇...</option><option>0–3 個月</option><option>4–6 個月</option><option>7–9 個月</option><option>10–12 個月</option><option>1–2 歲</option><option>2–3 歲</option></select></div>
+          <div class="form-field"><label>主要睡眠問題 <span class="req">*</span></label><select id="f-issue"><option value="">請選擇...</option><option>頻繁夜醒</option><option>抱睡/奶睡</option><option>難以入睡</option><option>日間小睡短</option><option>作息不規律</option><option>其他</option></select></div>
+          <div class="form-field full"><label>有興趣的服務 <span class="req">*</span></label><div class="svc-opts"><div class="svc-opt" id="sopt1" onclick="selectSvc('sopt1')"><div class="svc-opt-title">0至3個月嬰兒睡眠基礎建立計劃</div><div class="svc-opt-sub">0–3 個月 · 建立睡眠結構 + 21日跟進</div></div><div class="svc-opt" id="sopt2" onclick="selectSvc('sopt2')"><div class="svc-opt-title">個人化嬰幼兒睡眠改善計劃</div><div class="svc-opt-sub">4個月以上 · 個人化計劃書 + 21日跟進</div></div></div></div>
+          <div class="form-field full"><label>其他備注</label><textarea placeholder="寶寶目前作息、試過的方法、任何想讓我知道的..."></textarea></div>
+          <div class="form-divider"></div>
+          <div class="priv-row"><input type="checkbox" id="f-consent"><p>本人同意 Baby Sleep Lab HK 透過 WhatsApp 或電郵聯絡我。</p></div>
+          <div class="form-err" id="f-err">請填妥所有必填項目並同意私隱條款</div>
+          <button class="submit-btn" onclick="submitForm()">申請加入 Wait List →</button>
         </div>
-        <div class="fi full"><label>其他備注</label><textarea placeholder="寶寶目前作息、試過的方法..."></textarea></div>
       </div>
-      <div class="fdiv"></div>
-      <div class="priv"><input type="checkbox" id="co"><p>本人同意 Baby Sleep Lab HK 透過 WhatsApp 或電郵聯絡我，處理本次申請。</p></div>
-      <span id="e-co" class="errmsg" style="display:none;margin-bottom:12px;"></span>
-      <button class="btn-main" style="width:100%;padding:14px;border-radius:26px;font-size:14px;" onclick="sf()">申請加入 Wait List →</button>
-      <p style="font-size:11px;color:var(--dark);opacity:0.4;text-align:center;margin-top:10px;">有名額時 Claire 將以 WhatsApp 主動聯絡你</p>
-    </div>
-    <div class="succ" id="suc">
-      <div class="sr"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-      <h3>已成功加入 Wait List！</h3>
-      <p>多謝你的申請。有名額時 Claire 將以 WhatsApp 主動聯絡你。<br><br>撐住——好覺快來喇。</p>
+      <div class="form-success" id="form-success"><div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg></div><h3>已成功加入 Wait List！</h3><p>多謝你的申請。有名額時 Claire 將以 WhatsApp 主動聯絡你。<br><br>撐住——好覺快來喇。</p></div>
     </div>
   </div>
-</div>
+</section>
 
-<!-- CTA -->
-<div class="cta-sec">
-  <div class="cl"><span>每月只限 8 個家庭</span></div>
-  <h2>準備好讓全家一覺訓天光了嗎？</h2>
-  <p>每個家庭都係獨特的——每月只接受 8 個家庭，確保最佳效果</p>
-  <button class="btn-white" onclick="document.getElementById('apply').scrollIntoView({behavior:'smooth'})">申請加入 Wait List ↗</button>
-</div>
-
-<div class="footer">
-  <img src="images/logo.png" alt="Baby Sleep Lab HK">
-  <div class="footer-links"><a href="#">私隱政策</a><a href="#">條款及細則</a></div>
-  <p>© 2025 Baby Sleep Lab HK · 視像服務全港適用</p>
-</div>
-
+<section class="cta-sec"><div class="cta-badge"><span>每月只限 6 個家庭</span></div><h2>準備好讓全家一覺訓天光了嗎？</h2><p>每個家庭都係獨特的——每月只接受 6 個家庭，確保最佳效果</p><a href="#waitlist" class="btn-w">申請加入 Wait List ↗</a></section>
+<footer class="footer"><a href="index.html"><img class="logo" src="images/logo.png" alt="Baby Sleep Lab HK"></a><p>© 2025 Baby Sleep Lab HK · 視像服務全港適用</p><div class="footer-links"><a href="#">私隱政策</a><a href="#">條款及細則</a></div></footer>
 <script>
-let sv='';
-function ps(id){document.querySelectorAll('.sopt').forEach(s=>s.classList.toggle('sel',s.id===id));sv=id;}
-function sf(){
-  const nm=document.getElementById('nm').value.trim();
-  const ph=document.getElementById('ph').value.trim();
-  const ag=document.getElementById('ag').value;
-  const is=document.getElementById('is').value;
-  const co=document.getElementById('co').checked;
-  const ec=document.getElementById('e-co');
-  if(!nm||!ph||ph.replace(/\s/g,'').length<8||!ag||!is||!sv||!co){
-    ec.textContent='請填妥所有必填項目並同意私隱條款';ec.style.display='block';return;
-  }
-  ec.style.display='none';
-  document.getElementById('wlf').style.display='none';
-  document.getElementById('suc').style.display='block';
-}
+let selectedSvc='';
+function selectSvc(id){document.querySelectorAll('.svc-opt').forEach(o=>o.classList.remove('sel'));document.getElementById(id).classList.add('sel');selectedSvc=id;}
+function submitForm(){const name=document.getElementById('f-name').value.trim();const phone=document.getElementById('f-phone').value.trim();const age=document.getElementById('f-age').value;const issue=document.getElementById('f-issue').value;const consent=document.getElementById('f-consent').checked;const err=document.getElementById('f-err');if(!name||!phone||phone.replace(/\s/g,'').length<8||!age||!issue||!selectedSvc||!consent){err.style.display='block';return;}err.style.display='none';document.getElementById('form-body').style.display='none';document.getElementById('form-success').style.display='block';}
 </script>
 </body>
 </html>
