@@ -12,7 +12,19 @@
   <a href="index.html"><img class="logo" src="images/logo.png" alt="Baby Sleep Lab HK"></a>
   <div class="navlinks"><a href="index.html">主頁</a><a href="about.html">關於我</a><a href="services.html">服務方案</a><a href="testimonials.html" class="act">客戶心聲</a></div>
   <a href="index.html#waitlist" class="nav-btn">加入 Wait List</a>
+<button class="burger" id="burgerBtn" onclick="toggleMenu()">☰</button>
 </nav>
+<div class="mob-menu" id="mobMenu">
+  <a href="index.html" onclick="closeMenu()">🏠 主頁</a>
+  <a href="about.html" onclick="closeMenu()">👩‍⚕️ 關於我</a>
+  <a href="services.html" onclick="closeMenu()">📋 服務方案</a>
+  <a href="testimonials.html" onclick="closeMenu()">💬 客戶心聲</a>
+  <a href="index.html#waitlist" class="mob-cta" onclick="closeMenu()">加入 Wait List</a>
+</div>
+<script>
+function toggleMenu(){var m=document.getElementById("mobMenu");var b=document.getElementById("burgerBtn");var open=m.classList.toggle("open");b.textContent=open?"✕":"☰";}
+function closeMenu(){document.getElementById("mobMenu").classList.remove("open");document.getElementById("burgerBtn").textContent="☰";}
+</script>
 
 <div class="testi-hero">
   <span class="ey">客戶心聲</span>
@@ -49,9 +61,9 @@
     <p class="sub">唔係廣告——係真實用家回饋。</p>
     <div class="testi-grid">
       <div class="testi-card feat"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「我仔依家1歲2個月，本身由6個月左右開始夜晚會醒4/5次，做咗sleep training 2個星期左右就好大改善，依家最多醒一次，有時仲可以一覺瞓到天光！以前要黐住我哋瞓，而家可以自己訓喺床好快入睡～<br><br>Trainer Claire超細心，會睇住BB每日狀況幫我tune個plan，仲會預先解答埋我未問嘅問題。真心覺得幫到好大忙，成家終於有覺好瞓。<br><br>以前自己研究好多理論，但始終實行唔到，依家有人guide住真係會有效好多！」</p><div class="testi-bottom"><div><div class="testi-name">Yan</div><div class="testi-det">1歲2個月寶寶媽媽 · 香港</div></div><span class="testi-badge">夜醒 → 一覺天光</span></div></div>
-      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「Claire真係救咗我！呀女八個月，奶睡問題搞到我腰都廢咗。本來好驚sleep training，但Claire第一次通話已經令我安心晒。最正係個計劃書，詳細到連放床手勢都寫埋，跟住做第三日已經見效。依家終於有自己嘅夜晚喇！澳洲做都得，強烈推介」</p><div class="testi-bottom"><div><div class="testi-name">Mandy</div><div class="testi-det">呀女八個月大 · 澳洲</div></div><span class="testi-badge">奶睡 → 自行入睡</span></div></div>
-      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「作為一個試過唔少方法都失敗嘅媽媽，最令我信服嘅係Claire喺諮詢前已經深入分析我填嘅sleep log。她唔係靠估，而係有根有據咁解釋到呀女清晨早醒嘅真正原因。跟進期間每次調整都有清晰解釋，兩星期後問題完全解決。如果BB有睡眠問題，快D搵CLAIRE幫手啦」</p><div class="testi-bottom"><div><div class="testi-name">Karen</div><div class="testi-det">囝囝而家五個月啦 · 加拿大</div></div><span class="testi-badge">短 nap → 穩定作息</span></div></div>
-      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「囝囝五個月嗰陣，我已經開始接受『可能佢天生就係唔易訓』。直到做咗sleep log分析，先知道係wake window同入睡方式嘅問題。Claire每日都會因應囝囝當日情況微調方案——佢唔係一刀切，係真係睇住我BB嘅情況逐日調整。。一個星期後，連老公都話好似換左個新BB返黎咁...哈哈」</p><div class="testi-bottom"><div><div class="testi-name">Vivian</div><div class="testi-det">呀女已經兩歲三個月大 · 英國</div></div><span class="testi-badge">清晨早醒 → 解決</span></div></div>
+      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「呀女八個月大，一直要奶睡，放低就醒，我腰都痛到受唔住。最怕係sleep training會令佢喊好耐好慘，但Claire第一次通話已經解釋咗佢嘅方法係點，令我安心好多。計劃書寫得超詳細，連幾點開始bedtime routine、放床時手勢點做都寫晒。第三日已經見到明顯改善，依家囡囡自己摸索一陣就瞓著，我終於有自己嘅夜晚時間！喺澳洲時差都配合到，真係好感謝！」</p><div class="testi-bottom"><div><div class="testi-name">Mandy</div><div class="testi-det">呀女八個月大 · 澳洲</div></div><span class="testi-badge">奶睡 → 自行入睡</span></div></div>
+      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「囝囝而家五個月啦，nap成日得30分鐘，夜晚又頻頻夜醒，我以為係BB天生咁。Claire幫我睇咗3日sleep log之後，話係wake window唔啱，加上入睡方式有問題，即刻幫我搵到根源。最impressed係佢唔係一刀切，係真係睇住我BB嘅情況逐日調整。一個星期內nap明顯長咗，夜晚都穩定好多。喺加拿大做視像諮詢完全冇問題，Claire仲特別配合時差安排時間！」</p><div class="testi-bottom"><div><div class="testi-name">Karen</div><div class="testi-det">囝囝而家五個月啦 · 加拿大</div></div><span class="testi-badge">短 nap → 穩定作息</span></div></div>
+      <div class="testi-card"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="testi-q">「呀女已經兩歲三個月大，每朝5點就醒，一直唔知問題出喺邊。Claire喺諮詢前已經認真睇咗我填嘅sleep log，諮詢當日即刻解釋到係過攰同bedtime太早嘅問題——終於有人幫我搵到根源！調整咗nap結構同入睡時間之後，兩個星期內清晨早醒完全解決。21日WhatsApp跟進最正，有問題即刻有人回覆，Claire好有耐心，每次都解釋清楚點解要咁調整。喺英國做到online睡眠顧問，強烈推薦！」</p><div class="testi-bottom"><div><div class="testi-name">Vivian</div><div class="testi-det">呀女已經兩歲三個月大 · 英國</div></div><span class="testi-badge">清晨早醒 → 解決</span></div></div>
     </div>
   </div>
 </section>

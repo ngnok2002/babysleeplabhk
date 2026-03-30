@@ -17,7 +17,19 @@
     <a href="testimonials.html">客戶心聲</a>
   </div>
   <a href="#waitlist" class="nav-btn">加入 Wait List</a>
+<button class="burger" id="burgerBtn" onclick="toggleMenu()">☰</button>
 </nav>
+<div class="mob-menu" id="mobMenu">
+  <a href="index.html" onclick="closeMenu()">🏠 主頁</a>
+  <a href="about.html" onclick="closeMenu()">👩‍⚕️ 關於我</a>
+  <a href="services.html" onclick="closeMenu()">📋 服務方案</a>
+  <a href="testimonials.html" onclick="closeMenu()">💬 客戶心聲</a>
+  <a href="#waitlist" class="mob-cta" onclick="closeMenu()">加入 Wait List</a>
+</div>
+<script>
+function toggleMenu(){var m=document.getElementById("mobMenu");var b=document.getElementById("burgerBtn");var open=m.classList.toggle("open");b.textContent=open?"✕":"☰";}
+function closeMenu(){document.getElementById("mobMenu").classList.remove("open");document.getElementById("burgerBtn").textContent="☰";}
+</script>
 <div class="fomo-bar"><span class="fomo-dot"></span><span>每個家庭都係獨特的——每月只接受 <strong>6 個家庭</strong>，確保最佳效果</span></div>
 
 <section class="hero">
